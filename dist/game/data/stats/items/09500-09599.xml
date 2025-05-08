@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="9546" name="Fire Stone" type="EtcItem">
+<!--  Fire attack attribute increases by 5 when bestowed on a weapon. Water defense attribute increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. Yin in the Town of Aden and Yang in the Town of Rune exchange the crystals for Fire Crystals.  -->
+<set name="icon" val="icon.etc_fire_stone_i00"/>
+<set name="default_action" val="SKILL_REDUCE"/>
+<set name="etcitem_type" val="ENCHT_ATTR"/>
+<set name="immediate_effect" val="true"/>
+<set name="material" val="PAPER"/>
+<set name="weight" val="1"/>
+<set name="price" val="25000"/>
+<set name="is_stackable" val="true"/>
+<set name="handler" val="EnchantAttribute"/>
+<set name="commissionItemType" val="ATTRIBUTE_STONE"/>
+<skills>
+<skill id="2329" level="1"/>
+<!--  Fire Stone  -->
+</skills>
+</item>
+<item id="9547" name="Water Stone" type="EtcItem">
+<!--  Water attack attribute increases by 5 when bestowed on a weapon. Fire defense attribute increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. Yin in the Town of Aden and Yang in the Town of Rune exchange the crystals for Water Crystals.  -->
+<set name="icon" val="icon.etc_water_stone_i00"/>
+<set name="default_action" val="SKILL_REDUCE"/>
+<set name="etcitem_type" val="ENCHT_ATTR"/>
+<set name="immediate_effect" val="true"/>
+<set name="material" val="PAPER"/>
+<set name="weight" val="1"/>
+<set name="price" val="25000"/>
+<set name="is_stackable" val="true"/>
+<set name="handler" val="EnchantAttribute"/>
+<set name="commissionItemType" val="ATTRIBUTE_STONE"/>
+<skills>
+<skill id="2330" level="1"/>
+<!--  Water Stone  -->
+</skills>
+</item>
+<item id="9548" name="Earth Stone" type="EtcItem">
+<!--  Earth attack attribute increases by 5 when bestowed on a weapon and earth defense attribute by 6 when bestowed on armor, thereby increasing wind resistance. The maximum attribute level is 3. Additionally, a maximum of three types of elemental Attribute Resistance can be bestowed on armor, and opposite attributes cannot be bestowed together. Yin in the Town of Aden and Yang in the Town of Rune exchange the crystals for Earth Crystals.  -->
+<set name="icon" val="icon.etc_earth_stone_i00"/>
+<set name="default_action" val="SKILL_REDUCE"/>
+<set name="etcitem_type" val="ENCHT_ATTR"/>
+<set name="immediate_effect" val="true"/>
+<set name="material" val="PAPER"/>
+<set name="weight" val="1"/>
+<set name="price" val="25000"/>
+<set name="is_stackable" val="true"/>
+<set name="handler" val="EnchantAttribute"/>
+<set name="commissionItemType" val="ATTRIBUTE_STONE"/>
+<skills>
+<skill id="2332" level="1"/>
+<!--  Earth Stone  -->
+</skills>
+</item>
+<item id="9549" name="Wind Stone" type="EtcItem">
+<!--  Wind attack attribute increases by 5 when bestowed on a weapon. Earth defense attribute increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. Yin in the Town of Aden and Yang in the Town of Rune exchange the crystals for Wind Crystal.  -->
+<set name="icon" val="icon.etc_wind_stone_i00"/>
+<set name="default_action" val="SKILL_REDUCE"/>
+<set name="etcitem_type" val="ENCHT_ATTR"/>
+<set name="immediate_effect" val="true"/>
+<set name="material" val="PAPER"/>
+<set name="weight" val="1"/>
+<set name="price" val="25000"/>
+<set name="is_stackable" val="true"/>
+<set name="handler" val="EnchantAttribute"/>
+<set name="commissionItemType" val="ATTRIBUTE_STONE"/>
+<skills>
+<skill id="2331" level="1"/>
+<!--  Wind Stone  -->
+</skills>
+</item>
+<item id="9589" name="Iron Bracelet" type="Armor">
+		<!-- When equipped, opens up 1 Talisman slot. -->
+		<set name="icon" val="icon.etc_rbracelet_c_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="1080000" />
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="3322" level="1" /> <!-- Iron Bracelet -->
+		</skills>
+	</item>
+	<item id="9590" name="Bronze Bracelet" type="Armor">
+		<!-- When equipped, opens up 2 Talisman slots. -->
+		<set name="icon" val="icon.etc_rbracelet_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="5400000" />
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="3323" level="1" /> <!-- Bronze Bracelet -->
+		</skills>
+	</item>
+	<item id="9591" name="Steel Bracelet" type="Armor">
+		<!-- When equipped, opens up 3 Talisman slots. -->
+		<set name="icon" val="icon.etc_rbracelet_a_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="27000000" />
+		<set name="commissionItemType" val="BRACELET" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="3324" level="1" /> <!-- Steel Bracelet -->
+		</skills>
+	</item>
+</list>
